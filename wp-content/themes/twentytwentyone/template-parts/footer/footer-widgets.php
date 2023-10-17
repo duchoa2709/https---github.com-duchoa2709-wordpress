@@ -15,3 +15,13 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 
 	<?php
 endif;
+if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+
+	<aside class="widget-area">
+		<div class="footer-widgets column-two grid-item">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		</div>
+	</aside><!-- .widget-area -->
+
+	<?php
+endif;
